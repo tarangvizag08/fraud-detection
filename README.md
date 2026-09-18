@@ -1,7 +1,5 @@
 ﻿# Fraud Detection — Cost-Aware Threshold Selection
 
-A practice project ahead of Innoversité 2026 (BNP Paribas) — built to get comfortable with the full pipeline before the actual event, not a submission itself.
-
 ## What this does
 
 Trains a fraud classifier on the ULB credit card fraud dataset (the standard Kaggle one — 283k European card transactions, 473 of them fraud) and picks its decision threshold by actual business cost instead of the usual F1 score. A missed fraud and a false alarm don't cost a bank the same amount, so the metric shouldn't treat them the same either.
