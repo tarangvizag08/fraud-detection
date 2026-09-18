@@ -1,0 +1,4 @@
+﻿*.csv
+*.joblib
+*.png
+__pycache__/
